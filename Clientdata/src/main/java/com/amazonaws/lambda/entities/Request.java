@@ -55,6 +55,11 @@ public class Request {
 	public void setPhone_no(String phone_no) {
 		this.phone_no = phone_no;
 	}
+	@Override
+	public String toString() {
+		return "Request [action=" + action + ", id=" + id + ", code=" + code + ", email_id=" + email_id
+				+ ", client_name=" + client_name + ", company_name=" + company_name + ", phone_no=" + phone_no + "]";
+	}
 	
 	
 }
